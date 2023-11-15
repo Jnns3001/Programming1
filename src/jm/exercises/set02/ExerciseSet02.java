@@ -1,3 +1,7 @@
+package jm.exercises.set02;
+
+import jm.Terminal;
+
 public class ExerciseSet02 {
     public static void main(String[] args) {
         int num = Terminal.readInt("Provide a number");

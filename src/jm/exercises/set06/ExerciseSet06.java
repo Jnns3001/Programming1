@@ -1,3 +1,7 @@
+package jm.exercises.set06;
+
+import jm.Terminal;
+
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;

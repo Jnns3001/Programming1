@@ -1,3 +1,5 @@
+package jm;
+
 import java.io.*;
 
 import javax.naming.spi.DirStateFactory.Result;

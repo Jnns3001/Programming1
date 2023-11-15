@@ -1,3 +1,5 @@
+package jm;
+
 public class VPrinter {
     public static void main(String[] args) {
         printV(Terminal.readInt("Höhe"));

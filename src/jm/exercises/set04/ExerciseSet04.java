@@ -1,3 +1,7 @@
+package jm.exercises.set04;
+
+import jm.Terminal;
+
 public class ExerciseSet04 {
     public static void main(String[] args) {
         startByteOverflowDemo();

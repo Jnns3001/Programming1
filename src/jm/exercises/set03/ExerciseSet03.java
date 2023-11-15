@@ -1,3 +1,7 @@
+package jm.exercises.set03;
+
+import jm.Terminal;
+
 public class ExerciseSet03 {
     public static void main(String[] args) {
         String name = Terminal.readString("Enter your name");
