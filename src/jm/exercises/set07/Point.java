@@ -7,7 +7,7 @@ public class Point {
         y = ycord;
     }
     public String toString() {
-        return "Point("+ x +", "+ y +")";
+        return "("+ x +", "+ y +")";
     }
     public double getX() {
         return x;
