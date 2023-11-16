@@ -1,0 +1,18 @@
+package jm.exercises.set08;
+public class Point {
+    private final double x;
+    private final double y;
+    public Point(double xcord, double ycord) {
+        x = xcord;
+        y = ycord;
+    }
+    public String toString() {
+        return "("+ x +", "+ y +")";
+    }
+    public double getX() {
+        return x;
+    }
+    public double getY() {
+        return y;
+    }
+}
