@@ -1,4 +1,4 @@
-package jm;
+package rl.util.terminal;
 
 import java.io.*;
 

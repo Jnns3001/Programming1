@@ -1,4 +1,6 @@
-package jm;
+package jm.scipts;
+
+import rl.util.terminal.Terminal;
 
 public class VPrinter {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package jm;
+package jm.scipts;
 
 public class HelloWorld {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package jm;
+package jm.scipts;
 
 public class RecursionTest {
 
@@ -31,9 +31,9 @@ public class RecursionTest {
         }
         return true;
     }
-    public static boolean palindromTestR(String text) {
-        text = text.toLowerCase().replace(" ","");
-        return text.length() <= 1 || text.charAt(0) == text.charAt(text.length() - 1) && palindromTestR(text.substring(1, text.length() - 1));
+    public static boolean palindromTestR(String s) {
+        s = s.toLowerCase().replace(" ","");
+        return s.length() <= 1 || s.charAt(0) == s.charAt(s.length() - 1) && palindromTestR(s.substring(1, s.length() - 1));
     }
 
     public static void main(String[] args) {

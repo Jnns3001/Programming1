@@ -1,4 +1,4 @@
-package jm;
+package jm.scipts;
 import jm.exercises.set07.Point;
 public class debug {
     static int i;

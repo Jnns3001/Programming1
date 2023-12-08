@@ -1,6 +1,6 @@
 package jm.exercises.set02;
 
-import jm.Terminal;
+import rl.util.terminal.Terminal;
 
 public class ExerciseSet02 {
     public static void main(String[] args) {
