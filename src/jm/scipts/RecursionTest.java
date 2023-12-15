@@ -35,12 +35,20 @@ public class RecursionTest {
         s = s.toLowerCase().replace(" ","");
         return s.length() <= 1 || s.charAt(0) == s.charAt(s.length() - 1) && palindromTestR(s.substring(1, s.length() - 1));
     }
+    public static int rfac(int n) {
+        if (n == 1) {
+            return 1;
+        } else {
+            return n*rfac(n-1);
+        }
+    }
 
     public static void main(String[] args) {
         //printElements(new int[]{1,2,3,4});
         //System.out.println(max(new int[]{1,42,3,4}));
-        String text = "lageruregal";
-        System.out.println(palindromTestI(text));
-        System.out.println(palindromTestR(text));
+        //String text = "lageruregal";
+        //System.out.println(palindromTestI(text));
+        //System.out.println(palindromTestR(text));
+        System.out.println(rfac(4));
     }
 }
